@@ -21,7 +21,4 @@ And then call facebookfeed plugin for container of your choise
 You can use several parameters in plugin call:
 * id - id of the facebook entity
 * template - template for formatting each feed entry
-* limit - amount of messages to retrieve
-* offset - amount of messages to skip from the begining
-* until - unix timestamp of the end of period
-* since - unix timestamp of the beginning of the period
+* query - additional query parameters for filtering and formatting (will be added to query string)
